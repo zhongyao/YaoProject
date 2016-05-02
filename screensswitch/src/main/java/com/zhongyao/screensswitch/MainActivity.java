@@ -26,7 +26,7 @@ import android.util.Log;
  Activity运行时按下HOME键(跟被完全覆盖是一样的)：onSaveInstanceState -->
  onPause --> onStop       onRestart -->onStart--->onResume
 
- Activity未被完全覆盖只是失去焦点：onPause--->onResume
+ Activity未被完全覆盖只是失去焦点：onPause--->onResume ..
  */
 
 public class MainActivity extends Activity {
